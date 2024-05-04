@@ -1,0 +1,19 @@
+spring:
+    application:
+        name: Springboot
+#    security:
+#        oauth2:
+#            client:
+#                registration:
+#                    github:
+#                        clientId: 41fcc81fc1072c62a1b3
+#                        clientSecret: 86fd79940535e063922d88f3c6a14b4b60266c7a
+#                        scope: read:user,user:email
+    datasource:
+        url: jdbc:mysql://sql5.freesqldatabase.com/sql5702824
+        username: sql5702824
+        password: MrDllMLL1c
+app:
+    jwt:
+        secret: abcdefghijkk
+        header: Authorization
